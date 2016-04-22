@@ -20,7 +20,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -54,4 +54,29 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.like {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.like:hover,
+.like:focus {
+    text-decoration: none;
+    cursor: pointer;
 }
